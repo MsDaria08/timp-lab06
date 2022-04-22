@@ -16,7 +16,7 @@ jobs:
             cmake -B ./build
             cd build
             make
-            ./solver
+            ./question
         - name: packaging solver_application
           shell: bash
           working-directory: solver_application
