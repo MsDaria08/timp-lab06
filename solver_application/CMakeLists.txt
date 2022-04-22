@@ -12,9 +12,8 @@ target_link_libraries(question formatter_ex solver)
 install(TARGETS question RUNTIME DESTINATION bin)
 set(CPACK_SOURCE_GENERATOR "TGZ;ZIP")
 
-if(CPACK_GENERATOR_RPM ON)
     set(CPACK_GENERATOR "RPM")
-endif()
+
 
 include(CPack)
 
