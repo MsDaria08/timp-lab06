@@ -35,5 +35,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: solver_application/solver_output/question-0.1.1-Linux.rpm
-          asset_name: solver.rpm
+          asset_name: question.rpm
           asset_content_type: application/rpm
