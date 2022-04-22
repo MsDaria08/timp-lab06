@@ -34,6 +34,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: solver_application/solver_output/solver-0.1.1-Linux.rpm
+          asset_path: solver_application/solver_output/question-0.1.1-Linux.rpm
           asset_name: solver.rpm
           asset_content_type: application/rpm
