@@ -5,7 +5,7 @@ on:
       - "*dmg_v*"
 jobs:
   build_and_release:
-    runs-on: macOS-latest
+    runs-on: macos-latest
     steps:
       - name: checkout
         uses: actions/checkout@master
